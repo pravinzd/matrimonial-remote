@@ -131,11 +131,9 @@ $db['default'] = array(
 	'dsn'	=> '',
 
 	'hostname' => 'localhost',
-
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'matrimonial-cms',
+	'username' => 'pravin',
+	'password' => 'FoNx=By[KPK%',
+	'database' => 'matrimonial',
 
 	'dbdriver' => 'mysqli',
 
