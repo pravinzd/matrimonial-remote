@@ -250,7 +250,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     }
 </script>
 
-    <!-- <script src="/serviceWorker.js"></script> -->
+    <script src="/serviceWorker.js"></script>
 
     <script src="/upup.min.js"></script>
 
