@@ -1,0 +1,40 @@
+.sct-color-1 {
+    .outer-search {
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .outer-search {
+            top: 45% !important;
+        }
+    }
+
+    @media (min-width: 567px) and (max-width: 991px) {
+        .outer-search {
+            top: auto !important;
+            bottom: 0 !important;
+        }
+    }
+    @media (max-width: 576px) {
+        .outer-search {
+            top: auto !important;
+            bottom: 0;
+        }
+
+        .btn-search {
+            margin-top: 0 !important;
+        }
+    }
+
+    .s-search label {
+        white-space: nowrap;
+    }
+
+    .btn-search {
+        border-radius: 3px !important;
+    }
+}
