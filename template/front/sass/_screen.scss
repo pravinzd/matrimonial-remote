@@ -388,10 +388,9 @@
     height: auto;
     position: relative;
     display: flex;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color: $color-gray-lightest!important;
+    background-size: cover;
 }
 #modal_buttons {
     padding: 0px 15px 15px !important;

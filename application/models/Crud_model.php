@@ -306,7 +306,7 @@
                     $multi = 'yes';
                 }
             }
-            $return = '<select name="' . $name . '" onChange="' . $onchange . '(this.value,this)" class="' . $class . '" ' . $other . '  data-placeholder="' . $phrase . '" tabindex="2" data-hide-disabled="true" >';
+            $return = '<select name="' . $name . '" onChange="' . $onchange . '(this.value,this)" class="' . $class . '" ' . $other . '  data-placeholder="' . $phrase . '"  data-hide-disabled="true" >';
             if (!is_array($from)) {
                 if ($condition == '') {
                     $all = $this->db->get($from)->result_array();

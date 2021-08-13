@@ -1,5 +1,0 @@
-password: NATUmUsZ__wB
-
-'username' => 'pravin',
-	'password' => 'NATUmUsZ__wB',
-	'database' => 'matrimonial',

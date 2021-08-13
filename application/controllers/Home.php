@@ -4885,7 +4885,7 @@ class Home extends CI_Controller
     {
         $detail = $this->db->get_where('package_payment', array('package_payment_id' => $para1))->row()->payment_details;
         if ($detail != 'none') {
-            echo "<p class='text-start' Style='word-wrap: break-word'>" . $detail . "<p>";
+            echo "<p class='text-left' Style='word-wrap: break-word'>" . $detail . "<p>";
         } else {
             echo "<p class='text-center'><b>" . translate('no_details_available') . "</b><p>";
         }

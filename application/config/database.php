@@ -131,10 +131,10 @@ $db['default'] = array(
 	'dsn'	=> '',
 
 	'hostname' => 'localhost',
-	'username' => 'pravin',
-	'password' => 'FoNx=By[KPK%',
-	'database' => 'matrimonial',
 
+	'username' => 'pravin',
+	'password' => 'NATUmUsZ__wB',
+	'database' => 'matrimonial',
 	'dbdriver' => 'mysqli',
 
 	'dbprefix' => '',

@@ -1,7 +1,7 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts('./cache-polyfill.js');
 
-var cacheName = 'cache-v4';
+var cacheName = 'cache-v5';
 
 //Files to save in cache
 var files = [
@@ -165,7 +165,7 @@ self.addEventListener('sync', (event) => {
   console.info('Event: Sync');
 
   //Check registered sync name or emulated sync from devTools
-  if (event.tag === 'github' || event.tag === 'test-tag-from-devtools') {
+  if (event.tag === 'kirad' || event.tag === 'kiradMatrimonial') {
     event.waitUntil(
       //To check all opened tabs and send postMessage to those tabs
       self.clients.matchAll().then((all) => {

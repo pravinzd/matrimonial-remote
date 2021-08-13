@@ -2,7 +2,7 @@
   "name": "KiradMatrimony",
   "short_name": "KiradMatrimony",
   "theme_color": "#7e1890",
-  "start_url": "/",
+  "start_url": "https://kiradmatrimony.com/home/listing/premium_members",
   "background_color": "#9C27B0",
   "display": "standalone",
   "scope": "./",
@@ -54,6 +54,18 @@
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
     }
   ],
   "splash_pages": null

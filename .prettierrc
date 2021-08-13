@@ -1,8 +1,0 @@
-{
-    "tabWidth": 4,
-    "singleQuote": true,
-    "semi": true,
-    "wordWrapColumn": 800,
-    "proseWrap": "never",
-    "printWidth": 800
-}
